@@ -10,7 +10,6 @@ Wikipedia contributors. (2021, January 21).
    In Wikipedia, The Free Encyclopedia. Retrieved 17:32, January 31, 2021,
    from https://en.wikipedia.org/w/index.php?title=Web_application_security&oldid=1001721387
 
-Video Conference
 
 In the RSA Conference [#f1]_ Senior Instructor and Director of Digital
 Intelligence Heather Mahalik, Instructor Ed Skoudis, and
