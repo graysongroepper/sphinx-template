@@ -1,8 +1,5 @@
 Annotated Bibliography
 ======================
-
-Random Stuff
-
 The Web application security topic from Wikipedia [#f1]_ would be a good place
 to start. This covers [summary]. I could pull from this [specific info].
 
