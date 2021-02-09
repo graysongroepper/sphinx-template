@@ -67,5 +67,5 @@ article on how to create one of these devices that is very inexpensive but
 similar to the USB Rubber Ducky.
 
 .. [#f4] Kody. (2019, December 13). How to Run USB Rubber Ducky Scripts on a
-Super Inexpensive Digispark Board. WonderHowTo.
-https://null-byte.wonderhowto.com/how-to/run-usb-rubber-ducky-scripts-super-inexpensive-digispark-board-0198484/.
+   Super Inexpensive Digispark Board. WonderHowTo.
+   https://null-byte.wonderhowto.com/how-to/run-usb-rubber-ducky-scripts-super-inexpensive-digispark-board-0198484/.
