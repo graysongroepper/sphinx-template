@@ -85,5 +85,5 @@ is aware of many hacking techniques, vulnerabilities, scanners, and much more.
 He addresses almost every aspect of network security in his book, mading it
 well researched and descriptive.
 
-.. [#f5] Cole, E. (2009). <i>Network Security</i>. (R. L. Krutz, Ed.) (2nd ed.).
+.. [#f5] Cole, E. (2009). Network Security. (R. L. Krutz, Ed.) (2nd ed.).
    Wiley Publishing Inc.
