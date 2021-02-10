@@ -69,3 +69,21 @@ similar to the USB Rubber Ducky.
 .. [#f4] Kody. (2019, December 13). How to Run USB Rubber Ducky Scripts on a
    Super Inexpensive Digispark Board. WonderHowTo.
    https://null-byte.wonderhowto.com/how-to/run-usb-rubber-ducky-scripts-super-inexpensive-digispark-board-0198484/.
+
+
+In the book, Networking Security [#f5]_, author Dr. Eric Cole goes into great
+depth about network security, vulnerabilities, attacks, scanners, malicious
+code, password cracking and so much more. He does not state that these attacks
+can be used for a USB Rubber Ducky, but the scripts that are used are usually
+.exe files which he explains and calls as File Infectors. He addresses many
+different attacks that hackers use to this day. Many of these attacks can be
+used using a USB Rubber Ducky or something similar.
+
+Dr. Eric Cole is a industry-recognized security expert and scientist. He is
+extremely knowledgeable in the field of cyber security and network security. He
+is aware of many hacking techniques, vulnerabilities, scanners, and much more.
+He addresses almost every aspect of network security in his book, mading it
+well researched and descriptive.
+
+.. [#f5] Cole, E. (2009). Network Security. (R. L. Krutz, Ed.) (2nd ed.).
+   Wiley Publishing Inc.
