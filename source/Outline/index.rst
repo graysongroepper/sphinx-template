@@ -1,7 +1,7 @@
 Outline
 =======
 
-**Thesis:** Tutorial on building your own USB Rubber Ducky using a Digipark and
+**Thesis:** Tutorial on building your own USB Rubber Ducky using a Digispark and
     Arduino.
 
 * Step 1 - Download and setup Arduino for the Digispark.
