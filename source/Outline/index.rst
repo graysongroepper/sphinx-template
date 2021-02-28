@@ -41,6 +41,7 @@ Outline
         * Use CedArctic's Scripts from github [#f5]_
         * Use a safe one like Rick_Roll
         * Explain what this script will be doing
+        * Explain the script (Delay, Key, GUI, etc.) [#f6]_
 
 * Step 7 - Download the script onto the Digispark.
 
