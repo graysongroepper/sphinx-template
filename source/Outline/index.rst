@@ -16,7 +16,7 @@ Outline
 
 * Step 3 - Create the scripts you want to use.
 
-    * Create a simple script first (provide script) [#f5]_
+    * Create a simple script first (provide script) [#f4]_
         * The script will bring up notepad and repeat Hello World
         * Step by step creation of script (have each line of the script)
         * Show completed script
