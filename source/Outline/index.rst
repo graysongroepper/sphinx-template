@@ -20,7 +20,7 @@ Outline
         * The script will bring up notepad and repeat Hello World
         * Step by step creation of script (have each line of the script)
         * Show completed script
-        * Explain script (Delay, Key, GUI, etc.)
+        * Explain script (Delay, Key, GUI, etc.) [#f6]_
 
 * Step 4 - Download the script we made onto the Digispark.
 
@@ -44,10 +44,12 @@ Outline
     * Once downloaded it is ready to be inserted into a computer
 
 
-
 .. [#f4] Kody. (2019, December 13). *How to Run USB Rubber Ducky Scripts on a
    Super Inexpensive Digispark Board*. WonderHowTo.
    https://null-byte.wonderhowto.com/how-to/run-usb-rubber-ducky-scripts-super-inexpensive-digispark-board-0198484/.
 
 .. [#f5] CedArctic. (2020, July 31). *DigiSpark-Scripts*. GitHub.
     https://github.com/CedArctic/DigiSpark-Scripts
+
+.. [#f6] *Writing your first USB rubber Ducky Payload*.
+    https://docs.hak5.org/hc/en-us/articles/360010471234-Writing-your-first-USB-Rubber-Ducky-Payload.
