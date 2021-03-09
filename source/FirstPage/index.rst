@@ -35,7 +35,7 @@ Manager URLs: and copy and paste this URL into that field: http://digistump.com/
 then click ok. If you need more space, then click the button next to the field
 and a window should open where you can add the URL.
 
-.. image:: ../images/boards_manager.png
+.. image:: boards_manager.png
    :alt: image
 
 Once the URL has been added to Ardunio IDE we can then set up the selection of
