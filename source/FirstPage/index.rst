@@ -49,7 +49,7 @@ Once the package has been installed, we can now select which Digispark we want
 to use. We will be selecting the default Digispark. To do this go to Tools,
 hover over Board:, hover over Digistump AVR Boards, and select Digispark
 (Default – 16.5mhz). Once you have selected the correct Digispark you are ready
-to start writing scripts or even downloading scripts made from the internet.
+to start writing scripts or even downloading scripts made from the internet. [#f4]_
 
 * Step 4 - Create the scripts you want to use.
 
