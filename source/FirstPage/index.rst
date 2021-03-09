@@ -21,6 +21,36 @@ Outline
     * Provide link for download webpage.
     * Provide step by step on how to set it up (with screenshots) [#f4]_
 
+Before we can write scripts for the Digispark we need to download Arduino IDE.
+You can download Ardunio IDE here : https://www.arduino.cc/en/software . When
+the installation set up window pops up you can keep all the default settings for
+Ardunio IDE. Once it is done downloading, we can then set up Arduino IDE for the
+Digispark.
+
+The first thing we must do to set up Ardunio IDE is download a json file that
+stores all of the different Digispark boards and their code to run them into
+Ardunio IDE. First you will need to go to File then Preferences. Once in
+Preferences make sure you are in the settings tab. Look for Addition Board
+Manager URLs: and copy and paste this URL into that field: http://digistump.com/package_digistump_index.json
+then click ok. If you need more space, then click the button next to the field
+and a window should open where you can add the URL.
+
+.. image:: ../pictures/boards_manager
+   :alt: image
+
+Once the URL has been added to Ardunio IDE we can then set up the selection of
+which Digispark we want to use and write our scripts for it. To select our
+Digispark go to Tools, hover over Board:, go to Boards Manager, and in the
+search bar type in “digispark”. You should see a package that says Digispark AVR
+Boards by Digistump. Click Install in the bottom right corner and let it
+download.
+
+Once the package has been installed, we can now select which Digispark we want
+to use. We will be selecting the default Digispark. To do this go to Tools,
+hover over Board:, hover over Digistump AVR Boards, and select Digispark
+(Default – 16.5mhz). Once you have selected the correct Digispark you are ready
+to start writing scripts or even downloading scripts made from the internet.
+
 * Step 4 - Create the scripts you want to use.
 
     * Create a simple script first (provide script) [#f4]_
