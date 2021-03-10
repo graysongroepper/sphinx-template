@@ -35,7 +35,7 @@ Manager URLs: and copy and paste this URL into that field: http://digistump.com/
 then click ok. If you need more space, then click the button next to the field
 and a window should open where you can add the URL.
 
-.. image:: images\boards_manager.png
+.. image:: source/images/boards_manager.png
    :width: 400
    :alt: image
 
