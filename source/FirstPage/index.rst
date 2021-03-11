@@ -46,11 +46,23 @@ search bar type in “digispark”. You should see a package that says Digispark
 Boards by Digistump. Click Install in the bottom right corner and let it
 download.
 
+.. image:: ../images/board_manager_selection.png
+   :width: 400
+   :alt: image2
+
+.. image:: ../images/digistump.png
+   :width: 400
+   :alt: image3
+
 Once the package has been installed, we can now select which Digispark we want
 to use. We will be selecting the default Digispark. To do this go to Tools,
 hover over Board:, hover over Digistump AVR Boards, and select Digispark
 (Default – 16.5mhz). Once you have selected the correct Digispark you are ready
 to start writing scripts or even downloading scripts made from the internet. [#f4]_
+
+.. image:: ../images/digispark_default.png
+   :width: 400
+   :alt: image4
 
 * Step 4 - Create the scripts you want to use.
 
