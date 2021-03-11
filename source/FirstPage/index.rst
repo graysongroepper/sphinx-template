@@ -27,7 +27,7 @@ the installation set up window pops up you can keep all the default settings for
 Ardunio IDE. Once it is done downloading, we can then set up Arduino IDE for the
 Digispark.
 
-The first thing we must do to set up Ardunio IDE is download a json file that
+The first thing we must do to set up Ardunio IDE is download a json package that
 stores all of the different Digispark boards and their code to run them into
 Ardunio IDE. First you will need to go to File then Preferences. Once in
 Preferences make sure you are in the settings tab. Look for Addition Board
