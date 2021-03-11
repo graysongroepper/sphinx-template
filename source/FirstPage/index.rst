@@ -47,11 +47,11 @@ Boards by Digistump. Click Install in the bottom right corner and let it
 download.
 
 .. image:: ../images/board_manager_selection.png
-   :width: 400
+   :width: 500
    :alt: image2
 
 .. image:: ../images/digistump.png
-   :width: 400
+   :width: 500
    :alt: image3
 
 Once the package has been installed, we can now select which Digispark we want
@@ -61,7 +61,7 @@ hover over Board:, hover over Digistump AVR Boards, and select Digispark
 to start writing scripts or even downloading scripts made from the internet. [#f4]_
 
 .. image:: ../images/digispark_default.png
-   :width: 400
+   :width: 500
    :alt: image4
 
 * Step 4 - Create the scripts you want to use.
