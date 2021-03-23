@@ -1,5 +1,8 @@
-FirstPage
-=========
+First Page
+==========
+
+Download and Set Up Arduino For The Digispark
+---------------------------------------------
 
 **Thesis:** Tutorial on building your own USB Rubber Ducky using a Digispark and
     Arduino.
@@ -23,17 +26,18 @@ FirstPage
 
 Before we can write scripts for the Digispark we need to download Arduino IDE.
 You can download Ardunio IDE here : https://www.arduino.cc/en/software . When
-the installation set up window pops up you can keep all the default settings for
-Ardunio IDE. Once it is done downloading, we can then set up Arduino IDE for the
-Digispark.
+the installation is set up, a window will pop up. You can keep all the default
+settings for Ardunio IDE. Once it is done downloading, we can then set up
+Arduino IDE for the Digispark we want to use.
 
-The first thing we must do to set up Ardunio IDE is download a json package that
+The first thing we must do to set up Ardunio IDE is download a JSON package that
 stores all of the different Digispark boards and their code to run them into
-Ardunio IDE. First you will need to go to File then Preferences. Once in
-Preferences make sure you are in the settings tab. Look for Addition Board
-Manager URLs: and copy and paste this URL into that field: http://digistump.com/package_digistump_index.json
-then click ok. If you need more space, then click the button next to the field
-and a window should open where you can add the URL.
+Ardunio IDE. First you will need to go to **File** then **Preferences**. Once in
+**Preferences** make sure you are in the **Settings** tab. Look for
+**Addition Board Manager URLs:** and copy and paste this URL into that field:
+http://digistump.com/package_digistump_index.json then click ok. If you need
+more space, then click the button next to the field and a window should open
+where you can add the URL.
 
 .. image:: ../images/boards_manager.png
    :width: 500
@@ -41,10 +45,10 @@ and a window should open where you can add the URL.
 
 Once the URL has been added to Ardunio IDE we can then set up the selection of
 which Digispark we want to use and write our scripts for it. To select our
-Digispark go to Tools, hover over Board:, go to Boards Manager, and in the
-search bar type in “digispark”. You should see a package that says Digispark AVR
-Boards by Digistump. Click Install in the bottom right corner and let it
-download.
+Digispark go to **Tools**, hover over **Board:**, go to **Boards Manager**,
+and in the search bar type in “digispark”. You should see a package that says
+**Digispark AVR Boards by Digistump**. Click **Install** in the bottom right
+corner and let it download.
 
 .. image:: ../images/board_manager_selection.png
    :width: 500
@@ -55,10 +59,11 @@ download.
    :alt: image3
 
 Once the package has been installed, we can now select which Digispark we want
-to use. We will be selecting the default Digispark. To do this go to Tools,
-hover over Board:, hover over Digistump AVR Boards, and select Digispark
-(Default – 16.5mhz). Once you have selected the correct Digispark you are ready
-to start writing scripts or even downloading scripts made from the internet. [#f4]_
+to use. We will be selecting the default Digispark. To do this go to **Tools**,
+hover over **Board:**, hover over **Digistump AVR Boards**, and select
+**Digispark (Default – 16.5mhz)**. Once you have selected the correct
+Digispark you are ready to start writing scripts or even downloading scripts
+made by others on the internet. [#f4]_
 
 .. image:: ../images/digispark_default.png
    :width: 500
