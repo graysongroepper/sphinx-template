@@ -4,12 +4,6 @@ First Page
 **Thesis:** Tutorial on building your own USB Rubber Ducky using a Digispark and
     Arduino.
 
-* Step 1 - Disclaimer and Introduction
-
-    * Explain to the person what they are doing can be illegal if wrongfully
-      used
-    * What is this article about
-
 Introduction and Disclaimer
 ---------------------------
 
@@ -32,25 +26,17 @@ can or will be held liable if you manage to break their computer. Many scripts
 that you can download or create can damage, crash, or even fully destroy a
 computer.
 
-* Step 2 - Purchase a couple Digisparks.
-
-    * Buy the Digispark attiny85. (photo of Digispark)
-    * Need a few extra just in case one does not work.
-    * Amazon sells these
-
 Purchase A Couple Digisparks
 ----------------------------
 
 For this project you will need some Digisparks USBs. You will need the attiny85
 You will need more then one so make sure to buy a couple of them or buy them in
 bulk. Amazon sells these Digisparks and they are very inexpensive. Once you get
-your Digisparks then you are ready to go onto the next step
+your Digisparks then you are ready to go onto the next step.
 
-
-* Step 3 - Download and setup Arduino for the Digispark.
-
-    * Provide link for download webpage.
-    * Provide step by step on how to set it up (with screenshots) [#f4]_
+.. image:: ../images/digispark_usb.png
+   :width: 500
+   :alt: digispark
 
 Download and Set Up Arduino For The Digispark
 ---------------------------------------------
@@ -72,7 +58,7 @@ where you can add the URL.
 
 .. image:: ../images/boards_manager.png
    :width: 500
-   :alt: image
+   :alt: board_manager
 
 Once the URL has been added to Ardunio IDE we can then set up the selection of
 which Digispark we want to use and write our scripts for it. To select our
@@ -83,11 +69,11 @@ corner and let it download.
 
 .. image:: ../images/board_manager_selection.png
    :width: 500
-   :alt: image2
+   :alt: board_manager_selection
 
 .. image:: ../images/digistump.png
    :width: 500
-   :alt: image3
+   :alt: digistump
 
 Once the package has been installed, we can now select which Digispark we want
 to use. We will be selecting the default Digispark. To do this go to **Tools**,
@@ -98,7 +84,7 @@ made by others on the internet. [#f4]_
 
 .. image:: ../images/digispark_default.png
    :width: 500
-   :alt: image4
+   :alt: default_digispark
 
 * Step 4 - Create the scripts you want to use.
 
@@ -108,32 +94,112 @@ made by others on the internet. [#f4]_
         * Show completed script
         * Explain script (Delay, Key, GUI, etc.) [#f6]_
 
-* Step 5 - Download the script we made onto the Digispark.
+Create Our Script
+-----------------
 
-    * Press the arrow in the top left
-    * Have 10 seconds to insert the Digispark
-    * Once inserted it will begin to download onto the Digispark
-    * Once downloaded it is ready to be inserted into a computer
+We are ready to write our own script for our Digispark. At the very top of the
+script type int **#include "DigiKeyboard.h"**. It should be above the void setup
+section.
 
-* Step 6 - Do a downloaded script.
+Now we don't need to put anything in for void setup(), I will explain why later.
+In the void loop() type **DigiKeyboard.sendKeyStroke(0);** then hit enter. The
+next line of code we want to type in is **DigiKeyboard.println("Hello Digispark!");**
+once you are done hit enter one more time. The last part of the code you need to
+type is **DigiKeyboard.delay(5000);. Your code should know look like this:
 
-    * Do a Download one
-        * Use CedArctic's Scripts from github [#f5]_
-        * Use a safe one like Rick_Roll
-        * Explain what this script will be doing
-        * Explain the script (Delay, Key, GUI, etc.) [#f6]_
+.. image:: ../images/created_code.png
+   :width: 500
+    :alt: code
 
-* Step 7 - Download the script onto the Digispark.
+Before downloading this onto your Digispark, you must understand what the code
+is doing and what sendKeyStroke, println, delay, void setup, and void loop means.
+For sendKeyStroke you are sending to the computer what button to press on the
+keyboard. In this case we are sending zero because we want to prevent any
+missing characters that are entered in since some older devices can cause
+problems. This isn't necessary, but its better to be safe for now. Println means
+that it will print something on new lines, so for this it will print Hello
+Digispark! on separate lines. Delay is how long the code will wait before
+doing the next action or line of code. The time is in milliseconds, so the code
+is waiting 5 seconds before doing the loop again. For void setup, any code that
+is put in its curly brackets are ran in the beginning of the execution and
+never ran again. For void loop, any code that are in its curly brackets is ran
+multiple times or ran nonstop.
 
-    * Press the arrow in the top left
-    * Have 10 seconds to insert the Digispark
-    * Once inserted it will begin to download onto the Digispark
-    * Once downloaded take it out of the computer
-    * The Digispark is ready to be inserted to a computer
+So what is this script doing? The script is actually very simple and all it is
+doing is printing Hello Digispark! on separate lines multiple times in Arduino.
 
-* Step 8 - Conclusion
+Download The Script We Made Onto The Digispark
+----------------------------------------------
 
-    * Explain what we did and conclude
+Now its time to download our script we created. First we need to compile the
+code. To do this click the check mark in the top left corner. To do this click
+the green arrow up in the top left corner of Arduino IDE. You will have 60
+seconds to insert your Digispark into your computer.
+
+.. image:: ../images/arrow.png
+   :width: 500
+   :alt: arrow
+
+Once it is inserted it will begin to download. Once it is done it is ready to be
+inserted into a computer and you should see "Hello World" being printed. When
+you do insert the Digispark into a computer the Digispark will have a 5 second
+delay before it will execute the script due to the lack of hardware parts the
+Digispark has for USB communication and lack of resources.
+
+Using Pre-Made Script
+---------------------
+
+Now that you created your own lets do a pre-made one. There are so many that are
+pre-made on the internet but we will use the RickRoll_Update script from
+CedArctic's GitHub repo. You can find the GitHub link here: https://github.com/CedArctic/DigiSpark-Scripts
+
+Once on the github repository find the RickRoll_Update folder and click the file
+that has the code. Below is an image of what the code looks like. Now copy and
+paste the code into Arduino IDE.
+
+.. image:: ../images/RickRoll_Code.png
+   :width: 500
+   :alt: code
+
+Now before we download the script onto the Digispark we need to understand what
+this script is doing. This script will essentially bring up the GUI for
+searching on windows, paste in the youtube url link, and then hit enter. Then it
+will bring you or your victim to the sweet song of Rick Astley - Never Gonna
+Give You Up. This is known as the RickRoll which is the title of the script we
+are using.
+
+The next thing to understand is again the KEY, GUI, print, for(). KEY is what
+keyboard button is going to be pressed, so in this case the first key that will
+be pressed is R. MOD_GUI_LEFT stands for the windows key button in the bottom
+left corner of the keyboard. Print is what is going to be printed into or onto
+whatever we want, so we are printing the url into the search. Lastly, the for()
+is similar to the void loop but since it is empty it will end the loop. We
+wouldn't want to have this ran multiple times continuously, or maybe you do, that
+is up to you. If you didn't have th for loop it would make and endless amount of
+RickRolls which could make your computer freeze and/or crash.
+
+Now that you know what the code is doing and have it all set up, it is time to
+download it on the Digispark.
+
+Download The Pre-Made Script Onto The Digispark
+----------------------------------------------
+
+Lets downlad this script onto the Digispark. You can use the Digispark used when
+we created our own script if you want. When you download a new script onto a
+Digispark that has a script on it, the script that is currently on it will be
+erased. First, click the check mark in the top left corner and compile the code.
+To download after it is done compiling, click the green arrow in the top left
+corner of Arduino IDE. You will have 60 seconds to insert the Digispark into the
+computer.
+
+.. image:: ../images/arrow.png
+   :width: 500
+   :alt: arrow
+
+Once it is done you are ready to to insert it into a computer. Remember, since
+the Digispark is missing a bunch of hardware parts that help with USB
+communication and has limited resources it has about a five second delay before
+the script is ran.
 
 Conclusion
 ----------
