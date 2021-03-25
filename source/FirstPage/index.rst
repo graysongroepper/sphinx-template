@@ -1,9 +1,6 @@
 First Page
 ==========
 
-Download and Set Up Arduino For The Digispark
----------------------------------------------
-
 **Thesis:** Tutorial on building your own USB Rubber Ducky using a Digispark and
     Arduino.
 
@@ -13,16 +10,50 @@ Download and Set Up Arduino For The Digispark
       used
     * What is this article about
 
+Introduction and Disclaimer
+---------------------------
+
+In this tutorial you will be creating a make shift USB Rubber Ducky for only
+a few dollars using a Digispark and Arduino IDE. If you are not familiar with
+a USB Rubber Ducky, USB Rubber Duckys are a USB device that once inserted into
+a computer does a hacking technique called keystroke injection.These USB Rubber
+Duckys use scripts called ducky scripts. Hackers around the world have created
+many of their own since it is cheaper and fairly easy to make their own USB
+Rubber Ducky. Hackers have also been starting to disguise these USBs. They take
+the USB and turn it into a fake phone charger or similar USB plugin devices. We
+will be creating one of these on our own using the Digispark and Arduino IDE
+scripting that is similar to the ducky scripts.
+
+Disclaimer: What you will be creating in this tutorial can be used for criminal
+activity. Creating one of these is not illegal, but how you use it can be
+illegal. DO NOT use this in any form of criminal activity and DO NOT use one of
+these on a computer without permission. If you do happen to get permission you
+can or will be held liable if you manage to break their computer. Many scripts
+that you can download or create can damage, crash, or even fully destroy a
+computer.
+
 * Step 2 - Purchase a couple Digisparks.
 
     * Buy the Digispark attiny85. (photo of Digispark)
     * Need a few extra just in case one does not work.
     * Amazon sells these
 
+Purchase A Couple Digisparks
+----------------------------
+
+For this project you will need some Digisparks USBs. You will need the attiny85
+You will need more then one so make sure to buy a couple of them or buy them in
+bulk. Amazon sells these Digisparks and they are very inexpensive. Once you get
+your Digisparks then you are ready to go onto the next step
+
+
 * Step 3 - Download and setup Arduino for the Digispark.
 
     * Provide link for download webpage.
     * Provide step by step on how to set it up (with screenshots) [#f4]_
+
+Download and Set Up Arduino For The Digispark
+---------------------------------------------
 
 Before we can write scripts for the Digispark we need to download Arduino IDE.
 You can download Ardunio IDE here : https://www.arduino.cc/en/software . When
@@ -103,6 +134,16 @@ made by others on the internet. [#f4]_
 * Step 8 - Conclusion
 
     * Explain what we did and conclude
+
+Conclusion
+----------
+
+In this tutorial, we created a USB Rubber Ducky with only a few dollars using
+a Digispark and Arduino IDE. We created our own script and downloaded a script
+using Arduino IDE then downloaded them onto the Digispark. What we
+created was a device that uses a hacking technique called keystroke injection.
+There is still so much you can do with these little device and so many scripts
+you can download or create yourself and we just scratched the surface.
 
 
 .. [#f4] Kody. (2019, December 13). *How to Run USB Rubber Ducky Scripts on a
