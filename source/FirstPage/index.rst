@@ -99,7 +99,7 @@ next line of code we want to type in is **DigiKeyboard.println("Hello Digispark!
 once you are done hit enter one more time. The last part of the code you need to
 type is **DigiKeyboard.delay(5000);**. Your code should know look like this:
 
-.. image:: ../images/created_code.png
+.. image:: ../images/createdCode.png
    :width: 500
     :alt: code
 
