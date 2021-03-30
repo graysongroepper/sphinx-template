@@ -86,14 +86,6 @@ made by others on the internet. [#f4]_
    :width: 500
    :alt: default_digispark
 
-* Step 4 - Create the scripts you want to use.
-
-    * Create a simple script first (provide script) [#f4]_
-        * The script will bring up notepad and repeat Hello World
-        * Step by step creation of script (have each line of the script)
-        * Show completed script
-        * Explain script (Delay, Key, GUI, etc.) [#f6]_
-
 Create Our Script
 -----------------
 
@@ -105,7 +97,7 @@ Now we don't need to put anything in for void setup(), I will explain why later.
 In the void loop() type **DigiKeyboard.sendKeyStroke(0);** then hit enter. The
 next line of code we want to type in is **DigiKeyboard.println("Hello Digispark!");**
 once you are done hit enter one more time. The last part of the code you need to
-type is **DigiKeyboard.delay(5000);. Your code should know look like this:
+type is **DigiKeyboard.delay(5000);**. Your code should know look like this:
 
 .. image:: ../images/created_code.png
    :width: 500
