@@ -100,7 +100,6 @@ once you are done hit enter one more time. The last part of the code you need to
 type is **DigiKeyboard.delay(5000);**. Your code should know look like this:
 
 .. image:: ../images/createdCode.png
-   :width: 500
     :alt: code
 
 Before downloading this onto your Digispark, you must understand what the code
@@ -174,7 +173,7 @@ Now that you know what the code is doing and have it all set up, it is time to
 download it on the Digispark.
 
 Download The Pre-Made Script Onto The Digispark
-----------------------------------------------
+-----------------------------------------------
 
 Lets downlad this script onto the Digispark. You can use the Digispark used when
 we created our own script if you want. When you download a new script onto a
