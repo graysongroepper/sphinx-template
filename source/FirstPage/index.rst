@@ -88,7 +88,7 @@ Create Our Script
 -----------------
 
 We are ready to write our own script for our Digispark. At the very top of the
-script type int **#include "DigiKeyboard.h"**. It should be above the void
+script type int ''#include "DigiKeyboard.h"''. It should be above the void
 setup section.
 
 Now we don't need to put anything in for void setup(), I will explain why later.
