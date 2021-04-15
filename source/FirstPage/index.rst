@@ -167,9 +167,29 @@ Once on the github repository find the RickRoll_Update folder and click the file
 that has the code. Below is an image of what the code looks like. Now copy and
 paste the code into Arduino IDE.
 
-.. image:: ../images/RickRoll_Code.png
-   :width: 500
-   :alt: code
+.. code-block:: C++
+
+    //This DigiSpark script opens up Rick Astley's - Never Gonna Give You Up and also a fake Windows update screen and then maximizes it using F11
+    #include "DigiKeyboard.h"
+    void setup() {
+        //empty
+    }
+    void loop() {
+        DigiKeyboard.delay(2000);
+        DigiKeyboard.sendKeyStroke(0);
+        DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+        DigiKeyboard.delay(600);
+        DigiKeyboard.print("https://youtu.be/dQw4w9WgXcQ?t=43s");
+        DigiKeyboard.sendKeyStroke(KEY_ENTER);
+        DigiKeyboard.delay(5000);
+        DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+        DigiKeyboard.delay(3000);
+        DigiKeyboard.print("http://fakeupdate.net/win10ue");
+        DigiKeyboard.sendKeyStroke(KEY_ENTER);
+        DigiKeyboard.delay(2000);
+        DigiKeyboard.sendKeyStroke(KEY_F11);
+        for(;;){ /*empty*/ }
+    }
 
 Now before we download the script onto the Digispark we need to understand what
 this script is doing. This script will essentially bring up the GUI for
