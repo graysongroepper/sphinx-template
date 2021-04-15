@@ -35,7 +35,7 @@ get your Digisparks then you are ready to go onto the next step.
 .. figure:: ../images/digispark_usb.png
    :width: 500
    :alt: digispark
-    [#f7]_
+[#f7]_
 
 Download and Set Up Arduino for the Digispark
 ---------------------------------------------
