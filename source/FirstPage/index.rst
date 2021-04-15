@@ -54,7 +54,7 @@ http://digistump.com/package_digistump_index.json then click ok. If you need
 more space, then click the button next to the field and a window should open
 where you can add the URL.
 
-.. image:: ../images/boards_manager.png
+.. figure:: ../images/boards_manager.png
    :width: 500
    :alt: board_manager
 
@@ -65,11 +65,11 @@ and in the search bar type in “digispark”. You should see a package that say
 **Digispark AVR Boards by Digistump**. Click **Install** in the bottom right
 corner and let it download.
 
-.. image:: ../images/board_manager_selection.png
+.. figure:: ../images/board_manager_selection.png
    :width: 500
    :alt: board_manager_selection
 
-.. image:: ../images/digistump.png
+.. figure:: ../images/digistump.png
    :width: 500
    :alt: digistump
 
@@ -146,7 +146,7 @@ code. To do this click the check mark in the top left corner. To do this click
 the green arrow up in the top left corner of Arduino IDE. You will have 60
 seconds to insert your Digispark into your computer.
 
-.. image:: ../images/arrow.png
+.. figure:: ../images/arrow.png
    :width: 500
    :alt: arrow
 
@@ -222,7 +222,7 @@ To download after it is done compiling, click the green arrow in the top left
 corner of Arduino IDE. You will have 60 seconds to insert the Digispark into the
 computer.
 
-.. image:: ../images/arrow.png
+.. figure:: ../images/arrow.png
    :width: 500
    :alt: arrow
 
