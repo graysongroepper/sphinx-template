@@ -98,7 +98,6 @@ once you are done hit enter one more time. The last part of the code you need to
 type is **DigiKeyboard.delay(5000);**. Your code should know look like this:
 
 .. code-block:: C++
-    :linenoes:
 
     #include "DigiKeyboard.h"
 
