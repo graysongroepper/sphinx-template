@@ -27,14 +27,15 @@ that is similar to the ducky scripts.
 Hardware Needed
 ---------------
 
-For this project you will need some Digisparks USBs. You will need the attiny85
-You will need more then one so make sure to buy a couple of them or buy them in
+For this project you will need some Digisparks USBs. You will need the attiny85,
+you will need more then one so make sure to buy a couple of them or buy them in
 bulk. The devices can be bought directly from Digistump or also Amazon. Once you
 get your Digisparks then you are ready to go onto the next step.
 
 .. figure:: ../images/digispark_usb.png
    :width: 500
    :alt: digispark
+    [#f7]_
 
 Download and Set Up Arduino for the Digispark
 ---------------------------------------------
@@ -252,3 +253,6 @@ you can download or create yourself and we just scratched the surface.
 
 .. [#f6] *Writing your first USB rubber Ducky Payload*.
     https://docs.hak5.org/hc/en-us/articles/360010471234-Writing-your-first-USB-Rubber-Ducky-Payload.
+
+.. [#f7] (2018, November 20). *Digispark attiny85 USB development board.* RoboticX
+    https://roboticx.ps/product/digispark-attiny85-usb-development-board/
