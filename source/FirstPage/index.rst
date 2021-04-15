@@ -207,7 +207,7 @@ left corner of the keyboard. Print is what is going to be printed into or onto
 whatever we want, so we are printing the url into the search. Lastly, the for()
 is similar to the void loop but since it is empty it will end the loop. We
 wouldn't want to have this ran multiple times continuously, or maybe you do, that
-is up to you. If you didn't have th for loop it would make and endless amount of
+is up to you. If you didn't have the for loop it would make and endless amount of
 RickRolls which could make your computer freeze and/or crash.
 
 Now that you know what the code is doing and have it all set up, it is time to
