@@ -1,55 +1,53 @@
-First Page
-==========
 
-**Thesis:** Tutorial on building your own USB Rubber Ducky using a Digispark and
-    Arduino.
 
-Introduction and Disclaimer
----------------------------
+Tutorial on Building Your Own USB Rubber Ducky Using a Digispark and Arduino.
+=============================================================================
 
-In this tutorial you will be creating a make shift USB Rubber Ducky for only
+
+In this tutorial you will be creating a make-shift USB Rubber Ducky for only
 a few dollars using a Digispark and Arduino IDE. If you are not familiar with
-a USB Rubber Ducky, USB Rubber Duckys are a USB device that once inserted into
-a computer does a hacking technique called keystroke injection.These USB Rubber
-Duckys use scripts called ducky scripts. Hackers around the world have created
-many of their own since it is cheaper and fairly easy to make their own USB
-Rubber Ducky. Hackers have also been starting to disguise these USBs. They take
-the USB and turn it into a fake phone charger or similar USB plugin devices. We
-will be creating one of these on our own using the Digispark and Arduino IDE
-scripting that is similar to the ducky scripts.
+a USB Rubber Ducky, They are USB devices that once inserted into a computer does
+a hacking technique called **keystroke injection**. Keystroke injections is a
+hacking technique where once a USB device or a thumb drive is connected into a
+host computer, it runs the malicious code onto the computer. These devices use
+scripts called **ducky scripts**. Hackers have created many of their own
+versions of the USB Rubber Ducky since it is cheaper and fairly easy to make.
+Hackers have also been starting to disguise these USBs. They take the USB and
+turn it into a fake phone charger or similar USB plug-in device. We will be
+creating one of these on our own using the Digispark and Arduino IDE scripting
+that is similar to the ducky scripts.
 
-Disclaimer: What you will be creating in this tutorial can be used for criminal
-activity. Creating one of these is not illegal, but how you use it can be
-illegal. DO NOT use this in any form of criminal activity and DO NOT use one of
-these on a computer without permission. If you do happen to get permission you
-can or will be held liable if you manage to break their computer. Many scripts
-that you can download or create can damage, crash, or even fully destroy a
-computer.
+.. warning::
+    What you will be creating in this tutorial can be used for criminal
+    activity. Creating one of these is not illegal, but how you use it can be
+    illegal. DO NOT use this in any form of criminal activity and DO NOT use one
+    of these on a computer without permission. Many scripts that you can
+    download or create can damage, crash, or even fully destroy a computer.
 
-Purchase A Couple Digisparks
-----------------------------
+Hardware Needed
+---------------
 
 For this project you will need some Digisparks USBs. You will need the attiny85
 You will need more then one so make sure to buy a couple of them or buy them in
-bulk. Amazon sells these Digisparks and they are very inexpensive. Once you get
-your Digisparks then you are ready to go onto the next step.
+bulk. The devices can be bought directly from Digistump or also Amazon. Once you
+get your Digisparks then you are ready to go onto the next step.
 
-.. image:: ../images/digispark_usb.png
+.. figure:: ../images/digispark_usb.png
    :width: 500
    :alt: digispark
 
-Download and Set Up Arduino For The Digispark
+Download and Set Up Arduino for the Digispark
 ---------------------------------------------
 
 Before we can write scripts for the Digispark we need to download Arduino IDE.
-You can download Ardunio IDE here : https://www.arduino.cc/en/software . When
+You can download Arduino IDE here : https://www.arduino.cc/en/software. When
 the installation is set up, a window will pop up. You can keep all the default
-settings for Ardunio IDE. Once it is done downloading, we can then set up
+settings for Arduino IDE. Once it is done downloading, we can then set up
 Arduino IDE for the Digispark we want to use.
 
-The first thing we must do to set up Ardunio IDE is download a JSON package that
+The first thing we must do to set up Arduino IDE is download a JSON package that
 stores all of the different Digispark boards and their code to run them into
-Ardunio IDE. First you will need to go to **File** then **Preferences**. Once in
+Arduino IDE. First you will need to go to **File** then **Preferences**. Once in
 **Preferences** make sure you are in the **Settings** tab. Look for
 **Addition Board Manager URLs:** and copy and paste this URL into that field:
 http://digistump.com/package_digistump_index.json then click ok. If you need
@@ -60,7 +58,7 @@ where you can add the URL.
    :width: 500
    :alt: board_manager
 
-Once the URL has been added to Ardunio IDE we can then set up the selection of
+Once the URL has been added to Arduino IDE we can then set up the selection of
 which Digispark we want to use and write our scripts for it. To select our
 Digispark go to **Tools**, hover over **Board:**, go to **Boards Manager**,
 and in the search bar type in “digispark”. You should see a package that says
@@ -90,8 +88,8 @@ Create Our Script
 -----------------
 
 We are ready to write our own script for our Digispark. At the very top of the
-script type int **#include "DigiKeyboard.h"**. It should be above the void setup
-section.
+script type int **#include "DigiKeyboard.h"**. It should be above the void
+setup section.
 
 Now we don't need to put anything in for void setup(), I will explain why later.
 In the void loop() type **DigiKeyboard.sendKeyStroke(0);** then hit enter. The
@@ -99,8 +97,30 @@ next line of code we want to type in is **DigiKeyboard.println("Hello Digispark!
 once you are done hit enter one more time. The last part of the code you need to
 type is **DigiKeyboard.delay(5000);**. Your code should know look like this:
 
-.. image:: ../images/createdCode.png
-    :alt: code
+.. code-block:: C++
+    :linenoes:
+
+    #include "DigiKeyboard.h"
+
+    void setup() {
+    // put your setup code here, to run once:
+
+    }
+
+    void loop() {
+        // put your main code here, to run repeatedly:
+
+        DigiKeyboard.delay(1000);
+        DigiKeyboard.sendKeyStroke(0);
+        DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+        DigiKeyboard.delay(100);
+        DigiKeyboard.print("c:\windows\notepad.exe");
+        DigiKeyboard.sendKeyStroke(KEY_ENTER);
+        DigiKeyboard.delay(1000);
+        DigiKeyboard.print("Hello World");
+
+    }
+
 
 Before downloading this onto your Digispark, you must understand what the code
 is doing and what sendKeyStroke, println, delay, void setup, and void loop means.
@@ -119,7 +139,7 @@ multiple times or ran nonstop.
 So what is this script doing? The script is actually very simple and all it is
 doing is printing Hello Digispark! on separate lines multiple times in Arduino.
 
-Download The Script We Made Onto The Digispark
+Download the Script We Made Onto the Digispark
 ----------------------------------------------
 
 Now its time to download our script we created. First we need to compile the
@@ -172,10 +192,10 @@ RickRolls which could make your computer freeze and/or crash.
 Now that you know what the code is doing and have it all set up, it is time to
 download it on the Digispark.
 
-Download The Pre-Made Script Onto The Digispark
+Download the Pre-Made Script Onto the Digispark
 -----------------------------------------------
 
-Lets downlad this script onto the Digispark. You can use the Digispark used when
+Lets download this script onto the Digispark. You can use the Digispark used when
 we created our own script if you want. When you download a new script onto a
 Digispark that has a script on it, the script that is currently on it will be
 erased. First, click the check mark in the top left corner and compile the code.
