@@ -88,14 +88,15 @@ Create Our Script
 -----------------
 
 We are ready to write our own script for our Digispark. At the very top of the
-script type int ''#include "DigiKeyboard.h"''. It should be above the void
+script type int ``#include "DigiKeyboard.h"``. It should be above the void
 setup section.
 
-Now we don't need to put anything in for void setup(), I will explain why later.
-In the void loop() type **DigiKeyboard.sendKeyStroke(0);** then hit enter. The
-next line of code we want to type in is **DigiKeyboard.println("Hello Digispark!");**
-once you are done hit enter one more time. The last part of the code you need to
-type is **DigiKeyboard.delay(5000);**. Your code should know look like this:
+Now we don't need to put anything in for ``void setup()``, I will explain why
+later. In the ``void loop()`` type ``DigiKeyboard.sendKeyStroke(0);`` then hit
+enter. The next line of code we want to type in is
+``DigiKeyboard.println("Hello Digispark!");`` once you are done hit enter one
+more time. The last part of the code you need to type is
+``DigiKeyboard.delay(5000);``. Your code should know look like this:
 
 .. code-block:: C++
 
